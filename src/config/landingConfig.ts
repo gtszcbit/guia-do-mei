@@ -108,7 +108,7 @@ export const landingConfig: LandingConfig = {
       title: "PACOTE COMPLETO",
       badge: "GUIA + 4 BÔNUS",
       price: 37.90,
-      checkoutUrl: "", // Configure aqui o checkout oficial
+      checkoutUrl: "https://pay.cakto.com.br/n5reynj_1238088",
       features: [
         "Guia principal com 50 páginas A4 estruturadas",
         "Nove procedimentos em tutoriais visuais ilustrados",
@@ -127,7 +127,7 @@ export const landingConfig: LandingConfig = {
       title: "PLANO BÁSICO",
       badge: "APENAS O GUIA",
       price: 19.90,
-      checkoutUrl: "", // Configure aqui o checkout oficial
+      checkoutUrl: "https://pay.cakto.com.br/6t7mgvm",
       features: [
         "Guia principal com 50 páginas A4",
         "Acesso imediato",
@@ -139,7 +139,7 @@ export const landingConfig: LandingConfig = {
       title: "PACOTE COMPLETO (UPGRADE ESPECIAL)",
       price: 24.90,
       originalPrice: 37.90,
-      checkoutUrl: "", // Configure aqui o checkout com o upgrade
+      checkoutUrl: "https://pay.cakto.com.br/3aatg4w",
       savings: 13.00,
       diffFromBasico: 5.00
     }

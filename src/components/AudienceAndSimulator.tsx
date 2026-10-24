@@ -124,10 +124,6 @@ export const AudienceAndSimulator: React.FC = () => {
             </div>
           )}
 
-          {/* Aviso educativo obrigatório */}
-          <p className="mt-4 text-[11px] text-white/65 leading-relaxed">
-            Comparação ilustrativa de preços. O guia é educativo; serviços profissionais podem continuar sendo necessários para atividades específicas e desenquadramentos.
-          </p>
 
           {/* CTA do Simulador */}
           <div className="mt-6">

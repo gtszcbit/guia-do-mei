@@ -188,14 +188,19 @@ export const PricingOffer: React.FC = () => {
               </span>
 
               {/* Botão de Compra */}
-              <button
-                type="button"
-                onClick={() => handleCheckoutClick('completo')}
-                className="btn-cta-green w-full py-4 sm:py-5 px-6 text-base sm:text-lg mt-5 group"
+              <a
+                href={pricing.completo.checkoutUrl || "#"}
+                onClick={(e) => {
+                  if (!pricing.completo.checkoutUrl) {
+                    e.preventDefault();
+                    handleCheckoutClick('completo');
+                  }
+                }}
+                className="btn-cta-green w-full py-4 sm:py-5 px-6 text-base sm:text-lg mt-5 group flex items-center justify-center text-center cursor-pointer"
               >
                 <span>QUERO O GUIA COMPLETO</span>
                 <ArrowRight className="w-5 h-5 ml-2.5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
 
               {/* Linha sobre entrega e garantia */}
               <div className="mt-4 flex items-center justify-center gap-4 text-xs text-[#5E6E7E] flex-wrap">
