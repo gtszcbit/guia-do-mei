@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Check, ArrowRight, ArrowUp, ShieldCheck, Mail, FileCheck2 } from 'lucide-react';
-import { BookCover } from './VisualAssets';
 import { CheckoutNoticeModal } from './CheckoutNoticeModal';
 import { OrderBumpModal } from './OrderBumpModal';
 import { TestimonialsSection } from './TestimonialsSection';
@@ -260,11 +259,12 @@ export const PricingOffer: React.FC = () => {
 
             {/* Imagem menor da capa */}
             <div className="my-4 flex justify-center">
-              <div className="max-w-[150px] w-full">
-                <BookCover
-                  size="sm"
-                  imageUrl={landingConfig.images.heroCover}
+              <div className="max-w-[160px] w-full flex justify-center">
+                <img
+                  src={landingConfig.images.heroCover}
                   alt="Capa do Plano Básico Guia do MEI 50 páginas"
+                  className="w-full h-auto object-contain drop-shadow-xl rounded-xl hover:scale-[1.03] transition-transform duration-200"
+                  loading="lazy"
                 />
               </div>
             </div>
