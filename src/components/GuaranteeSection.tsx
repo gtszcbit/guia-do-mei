@@ -1,5 +1,4 @@
 import React from 'react';
-import { ShieldCheck, Mail } from 'lucide-react';
 import { landingConfig } from '../config/landingConfig';
 
 export const GuaranteeSection: React.FC = () => {
@@ -39,18 +38,6 @@ export const GuaranteeSection: React.FC = () => {
           <p className="mt-4 text-sm sm:text-base text-[#2E3E4E] leading-relaxed max-w-lg">
             {delivery.guaranteeText}
           </p>
-
-          {/* Canal de suporte configurável */}
-          <div className="mt-6 pt-5 border-t border-slate-200 w-full flex flex-col items-center justify-center text-xs text-[#5E6E7E] gap-1">
-            <div className="flex items-center gap-1.5 font-bold text-[#0F2D4A]">
-              <Mail className="w-4 h-4 text-[#13A3A0]" />
-              <span>Canal oficial de atendimento:</span>
-              <span className="text-slate-800 select-all font-mono">
-                {delivery.supportEmail}
-              </span>
-            </div>
-            <span>{delivery.supportSchedule}</span>
-          </div>
 
         </div>
 
