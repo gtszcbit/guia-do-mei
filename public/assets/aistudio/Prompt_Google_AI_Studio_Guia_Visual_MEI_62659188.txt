@@ -1,0 +1,292 @@
+Crie e implemente uma landing page completa para o produto digital “Guia Visual do MEI — Edição 2026”. Entregue a página funcional, com todos os componentes e textos em português brasileiro. O resultado deve reproduzir de perto a organização visual e o ritmo da referência, com a identidade e os materiais do meu produto.
+
+REFERÊNCIA VISUAL ANALISADA
+https://mapa-facildomei.vercel.app/
+
+Use a referência para entender composição, hierarquia, sequência das seções, contraste, dimensões dos cards e posicionamento dos botões. Produza código próprio e textos originais. Use apenas as capas e páginas do meu Guia Visual do MEI que eu fornecer. Não reutilize imagens, marca, fotos de clientes, depoimentos, contagem de compradores, registro no INPI ou links de checkout da referência.
+
+Se você não conseguir abrir o endereço, implemente rigorosamente a especificação abaixo. Não simplifique a página para um template genérico de três seções.
+
+1. PRODUTO E OBJETIVO
+
+Produto principal: Guia Visual do MEI — Edição 2026, com 50 páginas A4 em PDF.
+Quatro bônus separados:
+1) Calendário de obrigações 2026/2027 — 5 páginas.
+2) Registro mensal de receitas — 4 páginas.
+3) Conferência da situação do MEI — 5 páginas.
+4) Dicionário visual do MEI — 7 páginas.
+O conjunto possui 71 páginas, contando as capas dos cinco materiais. Diferencie claramente “50 páginas do guia” de “71 páginas no conjunto com os bônus”.
+
+O público são pequenos empreendedores brasileiros que querem entender e organizar suas obrigações com mais autonomia. O material é educativo, com linguagem simples, listas de conferência e tutoriais ilustrativos. A página deve transmitir facilidade de consulta e organização.
+
+2. SISTEMA VISUAL
+
+Use estas cores como ponto de partida, observadas na referência:
+- Azul-marinho principal: #0F2D4A.
+- Azul muito escuro do rodapé: #0A2036.
+- Cor dos títulos nas áreas claras: #10233A.
+- Texto principal: #2E3E4E.
+- Texto secundário: #5E6E7E.
+- Fundo geral: #F6F8FB.
+- Cards: #FFFFFF.
+- Linhas e bordas: #E3E8EF.
+- Amarelo de destaque: #FFC845.
+- Turquesa: #13A3A0.
+- Verde dos botões: #1E9E6A, com topo #24B97A e base/sombra #147A50.
+- Verde muito claro: #E3F6EC.
+- Amarelo muito claro: #FFF4D6.
+- Vermelho pontual: #E04F43.
+
+Tipografia:
+- Plus Jakarta Sans, pesos 700 e 800, para títulos e botões.
+- Nunito, pesos 600, 700, 800 e 900, para textos, listas e pequenos rótulos.
+- Fontes de sistema como fallback.
+- Corpo de aproximadamente 17px e entrelinha 1,65.
+- H1 responsivo: aproximadamente 42px no celular até 68px no desktop; peso 800; entrelinha próxima de 1,05; espaçamento entre letras levemente negativo.
+- H2: aproximadamente 28px a 42px, peso 800, entrelinha 1,12.
+- H3: aproximadamente 19px a 20px.
+- Rótulos pequenos com espaçamento entre letras; não aplicar caixa alta aos parágrafos.
+
+Layout:
+- Página longa, com leitura vertical e conteúdo predominantemente centralizado, inclusive no desktop.
+- Container externo de até 1120px, com 20px de padding lateral.
+- Blocos de leitura entre 560px e 760px. FAQ de até 800px.
+- Não transformar o hero em duas colunas. A referência empilha título, subtítulo, produto, informações, lista e CTA.
+- Seções com cerca de 64px de padding vertical no desktop e 52px em telas de até 860px.
+- Alternar branco, cinza muito claro e azul-marinho conforme a sequência abaixo.
+- Cards com bordas de 1px, raios de 14px a 26px e sombras discretas.
+- Títulos centralizados; listas e perguntas alinhadas à esquerda.
+
+Botões principais:
+- Verde com gradiente vertical, texto branco, peso 800, caixa alta e seta para a direita.
+- Largura de 100% até 520px; padding próximo de 19px 30px; raio de 16px.
+- Sombra inferior sólida verde-escura e sombra difusa suave.
+- Ao pressionar, deslocar o botão levemente para baixo.
+- Usar movimento discreto e respeitar prefers-reduced-motion.
+
+3. SEQUÊNCIA OBRIGATÓRIA DAS SEÇÕES
+
+SEÇÃO 1 — FAIXA SUPERIOR
+Faixa fina, de ponta a ponta, antes do hero. A referência usa vermelho e texto branco. Aqui use uma mensagem real: “Guia em PDF • Edição 2026 • Leia no celular ou imprima”. Não criar prazo de oferta que se renova diariamente. Se existir campanha com data real configurada, a faixa poderá exibir esse prazo.
+Não adicionar menu complexo nem links que distraiam da leitura.
+
+SEÇÃO 2 — HERO AZUL-MARINHO
+Fundo com gradiente radial suave: #1E4C78 na parte superior, chegando a #0F2D4A.
+Ordem interna:
+1) Pequena cápsula com borda translúcida e rótulo “GUIA VISUAL DO MEI · EDIÇÃO 2026”.
+2) H1 com o nome do produto. Destacar “Visual” em amarelo, com pequeno sublinhado curvo decorativo abaixo.
+3) Subtítulo original: “Entenda as obrigações do seu MEI e aprenda a organizar guias, notas e declarações com um passo a passo visual e fácil de consultar.” Destaque poucas palavras em amarelo.
+4) Composição do produto centralizada: capa na frente e quatro páginas reais atrás, duas de cada lado. Largura total até aproximadamente 560px. Capa com cerca de 46% da largura, centralizada e acima das folhas. Páginas laterais com cerca de 31%, rotação suave de 4 a 8 graus e sombra. No celular, manter dentro da largura disponível sem cortar a capa.
+5) Duas cápsulas abaixo: “50 páginas no guia” e “4 bônus no completo”. Não usar o número de compradores da referência.
+6) Parágrafo curto explicando que o guia reúne orientações e tutoriais para consultar conforme a necessidade.
+7) Frase curta em verde-claro: “Um assunto por página. Explicações diretas. Consulta prática.”
+8) Lista de oito temas, com checks verdes. Desktop em duas colunas; celular em uma:
+   - Formalização e primeiros passos.
+   - DAS e organização dos comprovantes.
+   - Receitas, Pix e faturamento.
+   - Notas de serviços e de mercadorias.
+   - Declaração anual DASN-Simei.
+   - Consulta de pendências e parcelamento.
+   - Contribuições e requisitos previdenciários.
+   - Rotina e prevenção de golpes.
+9) Preço do plano completo, usando a configuração central de preços.
+10) CTA “QUERO CONHECER OS PLANOS”, apontando para #oferta.
+11) Linha de confiança: “PDF para consultar e imprimir” e “Garantia de 7 dias”, conforme a política configurada.
+12) Texto discreto sobre entrega, com o canal realmente configurado. Não presumir envio por WhatsApp.
+
+SEÇÃO 3 — DEMONSTRAÇÃO VISUAL DO MATERIAL
+Fundo #F6F8FB.
+Título original: “Veja como a organização visual facilita a consulta”. Destacar a expressão final em turquesa.
+Subtítulo: “Páginas diretas para encontrar o assunto e acompanhar cada etapa.”
+Montagem de quatro páginas reais em grade 2×2, dentro de um bloco de até 720px. Pequeno espaço entre páginas, bordas claras, cantos arredondados e sombra leve.
+Sobrepor a capa do guia no centro, com largura aproximada de 40% no desktop e até 48% nas telas menores, preservando acesso às amostras.
+Permitir ampliar cada página por clique/toque em uma lightbox. Botão de fechar visível, fechamento por Escape e pelo fundo, controle de foco e retorno do foco ao elemento de origem.
+As imagens devem ser do meu produto, sem textos legais inventados dentro delas.
+
+SEÇÃO 4 — QUATRO PILARES DO GUIA
+Fundo branco e linhas suaves separando a seção.
+Título: “O que você encontra no Guia Visual do MEI”.
+Quatro cards empilhados, em uma coluna de até 660px, mesmo no desktop. Gap de 16px.
+Cada card possui borda superior colorida de cerca de 6px, círculo branco com ícone, título em caixa alta e um parágrafo curto.
+Cards:
+1) “ROTINA E OBRIGAÇÕES”: organizar tarefas mensais, anuais e eventuais. Cor turquesa.
+2) “PASSO A PASSO VISUAL”: nove procedimentos, da abertura às consultas previdenciárias, distribuídos nas páginas do guia. Cor verde.
+3) “NOTAS E RECEITAS”: entender os documentos fiscais e registrar as vendas. Cor roxa discreta.
+4) “FATURAMENTO E PENDÊNCIAS”: acompanhar receitas e identificar quando buscar orientação. Cor laranja discreta.
+Repetir CTA para #oferta abaixo dos cards.
+
+SEÇÃO 5 — PARA QUEM É + SIMULADOR
+Fundo claro.
+Título: “Para quem quer cuidar da rotina com mais autonomia”.
+Seis linhas em cards brancos, até 660px, ícone de check verde à esquerda e texto:
+- Quem pretende abrir o MEI.
+- Quem precisa organizar as obrigações.
+- Quem quer aprender a consultar e emitir o DAS.
+- Quem tem dúvidas sobre notas fiscais.
+- Quem precisa acompanhar o faturamento.
+- Quem quer identificar pendências e entender os próximos passos.
+
+Abaixo, conservar o formato do simulador interativo da referência, em card azul-marinho de até 560px, raio de 24px e padding de 24px.
+Título original: “Compare os valores”.
+Pergunta: “Quanto você informa de gasto mensal com apoio administrativo?”
+Slider de R$ 0 a R$ 400, valor inicial de R$ 150, controle por teclado e valor exibido em amarelo. Calcular o total de 12 meses e mostrar ao lado o preço único do guia completo. Usar Intl.NumberFormat('pt-BR', {style:'currency',currency:'BRL'}).
+Se apresentar a diferença aritmética, chamar de “Diferença entre os valores”, com centavos e sem promessa de economia garantida. Explicação visível: “Comparação ilustrativa de preços. O guia é educativo; serviços profissionais podem continuar sendo necessários.” Não apresentar o guia como um serviço equivalente ao de um contador. Para valor mensal zero, evitar qualquer frase de economia.
+CTA abaixo para #oferta.
+
+SEÇÃO 6 — SELETOR INTERATIVO DA SITUAÇÃO
+Fundo branco.
+Título: “Por onde você quer começar?”
+Subtítulo: “Escolha a situação que mais combina com a sua rotina.”
+Caixa branca de até 560px, borda clara, raio de 22px e padding de 18px.
+Oito botões verticais de largura total, com ícone em quadrado arredondado e texto alinhado à esquerda. Ao selecionar, aplicar borda azul-marinho e mostrar abaixo uma resposta colorida com título, explicação curta e link para #oferta.
+Mapeamento de respostas, com páginas do guia principal:
+1) Quero abrir meu MEI → “Comece pela formalização”, páginas 4–10.
+2) Não sei quais são minhas obrigações → “Entenda a rotina”, páginas 11–16.
+3) Quero organizar receitas e comprovantes → “Organize os registros”, páginas 17–22.
+4) Preciso emitir uma nota → “Veja o tipo de documento fiscal”, páginas 26–30.
+5) Recebo vendas por Pix na conta pessoal → “Separe receitas de outras entradas”, páginas 17–20.
+6) Tenho guias atrasadas ou pendências → “Consulte antes de decidir”, páginas 36–42.
+7) Preciso acompanhar o faturamento → “Acompanhe a receita acumulada”, páginas 21–25.
+8) Quero entender o INSS → “Confira contribuições e requisitos”, páginas 44–47.
+Só uma opção selecionada por vez. Use aria-pressed nos botões e aria-live no resultado. O seletor orienta a leitura; não diagnostica regularidade fiscal.
+
+SEÇÃO 7 — TRÊS AMOSTRAS EM DESTAQUE
+Fundo claro.
+Título: “Conheça algumas páginas do guia”.
+Subtítulo: “Veja exemplos do formato que você vai consultar.”
+Três cards grandes empilhados, até 720px de largura, gap de 22px. Cada card: pequeno rótulo colorido centralizado, imagem real do material sem corte, título e legenda curta.
+Temas:
+1) “DAS mensal”: como consultar a guia e organizar o pagamento.
+2) “Receitas e Pix”: separar receita da atividade de outras entradas.
+3) “Faturamento”: acompanhar o acumulado e reconhecer situações que exigem atenção.
+Não inserir valores tributários no site sem confirmar a regra e sua data. A amostra deve corresponder à página real fornecida.
+CTA verde para #oferta.
+
+SEÇÃO 8 — QUATRO BÔNUS
+Fundo #0F2D4A, títulos brancos e destaques amarelos.
+Pequeno rótulo acima: “MAIS FERRAMENTAS PARA SUA ORGANIZAÇÃO”.
+Título: “4 bônus no plano completo”.
+Subtítulo: “Arquivos separados para consultar, imprimir e preencher.”
+Grid 2×2, largura máxima próxima de 760px, gap horizontal de 14px e vertical de 18px. Cada card translúcido com borda clara sutil e raio de 18px.
+Estrutura de cada card:
+- Cápsula superior “BÔNUS 1”, “BÔNUS 2” etc.
+- Capa do bônus com proporção A4, sem cortar o conteúdo.
+- Apresentação sobre uma moldura tipo prancheta, inspirada na composição da referência, feita em CSS, com inclinação suave. Não reutilizar a imagem da referência.
+- Título e uma frase explicativa.
+- Cápsula “Incluso no completo”.
+Usar os quatro nomes do meu produto. O registro de receitas é um formulário em PDF para preenchimento manual, sem cálculo automático.
+Não atribuir preços fictícios a cada bônus nem inventar valor total de mercado. Uma faixa amarela ao final pode dizer: “Os quatro bônus acompanham o plano completo”.
+
+SEÇÃO 9 — OFERTA E DOIS PLANOS
+ID #oferta. Fundo em gradiente suave entre #EAF0F6 e #F6F8FB.
+Título: “Escolha como quer receber o seu guia”.
+
+Plano completo PRIMEIRO, centralizado, máximo de 560px, fundo branco, borda verde de 3px, raio de 26px, sombra mais forte que os demais cards.
+Cabeçalho verde com rótulo “GUIA + 4 BÔNUS”. Usar “PACOTE COMPLETO”, sem afirmar ser o mais vendido se não há dados.
+Imagem do kit usando as capas reais.
+Lista de entregáveis com checks e divisórias tracejadas:
+- Guia principal com 50 páginas A4.
+- Nove procedimentos em tutoriais visuais.
+- DAS, notas, receitas e declaração anual.
+- Consultas, pendências e orientação sobre parcelamento.
+- Contribuições e requisitos previdenciários.
+- Quatro bônus, cada um identificado em linha de fundo amarelo-claro.
+- Conjunto com 71 páginas em cinco materiais.
+Preço em grande destaque, de aproximadamente 60px no desktop. CTA “QUERO O GUIA COMPLETO”.
+Pix e cartão somente se habilitados no checkout. Não copiar o parcelamento da referência: mostrar parcelas apenas se configuradas com valores reais.
+Linha sobre entrega e garantia conforme a política efetiva.
+
+Entre os planos, adicionar chamada em caixa azul-marinho com pequena seta apontando para cima, texto branco e valor da diferença em amarelo: “Por R$ [diferença] a mais, inclua os quatro bônus”. Calcular a diferença a partir dos preços configurados. O clique deve voltar para #plano-completo.
+
+Plano básico ABAIXO, centralizado, máximo de 400px. Card mais simples, cabeçalho cinza-claro e imagem menor da capa. Informar que inclui o guia principal de 50 páginas e não inclui os quatro bônus. CTA “QUERO APENAS O GUIA”.
+O plano básico deve ter menor destaque, mas manter contraste e botão claramente utilizável. Não aplicar opacidade que deixe a leitura difícil.
+
+CONFIGURAÇÃO DA OFERTA
+Centralizar nome, preços, links e dados da oferta em um único objeto/configuração editável.
+Para a primeira prévia visual, podem ser usados R$ 37,90 no completo e R$ 27,90 no básico, identificados no código como preços provisórios baseados na referência e sujeitos à definição do proprietário. Estes valores não representam uma oferta já confirmada do meu negócio.
+Não exibir preço anterior riscado sem um preço anterior real informado. Não inventar desconto, promoção com vencimento, estoque ou contador regressivo.
+Checkout completo: deixar configurável, sem reutilizar link de terceiros.
+Checkout básico: deixar configurável, sem reutilizar link de terceiros.
+Se o checkout estiver ausente, o botão deve abrir um aviso claro de “Link de pagamento ainda não configurado”, sem encaminhar para outro vendedor e sem simular compra bem-sucedida.
+
+SEÇÃO 10 — ESPAÇO PARA AVALIAÇÕES REAIS
+Preservar a posição e o layout da seção de prova social: título central, faixa de resumo opcional e três cards.
+Cada card pode conter foto circular pequena, nome autorizado, contexto, avaliação real e comentário.
+Os três cards ficam lado a lado quando houver espaço, empilhando no celular.
+Criar componente alimentado por array de avaliações. Se o array estiver vazio, ocultar a seção na página pública. Não inventar depoimentos, estrelas, nomes, fotos de clientes, quantidade de compradores ou média de avaliações. Não copiar os depoimentos da referência.
+
+SEÇÃO 11 — GARANTIA
+Fundo branco.
+Card central de até 700px, borda verde tracejada de 3px, raio de 22px e padding de 32px 24px.
+Selo original com “7 dias”, em amarelo e azul-marinho, sem copiar imagem de selo de outro site.
+Título original: “Você tem 7 dias para avaliar o material”.
+Texto explicando o reembolso conforme a política definida e o canal de solicitação realmente disponível. Usar campo configurável para suporte. Não inventar e-mail ou WhatsApp. Se faltar esse dado, sinalizar na configuração de prévia.
+
+SEÇÃO 12 — PERGUNTAS FREQUENTES
+Fundo claro; container de até 800px.
+Oito acordeões brancos com bordas claras, raio de 14px, padding de aproximadamente 17px 20px. Pergunta em negrito, sinal “+” turquesa à direita, transformando em “–” ao abrir. Pode usar details/summary nativo.
+Perguntas e direcionamento das respostas:
+1) “Preciso entender de contabilidade?” → linguagem simples, organização visual e instruções para acompanhar as etapas.
+2) “Serve para quem ainda vai abrir o MEI?” → explicar o bloco de formalização.
+3) “O que vem no plano completo?” → guia de 50 páginas e quatro bônus separados; 71 páginas no conjunto.
+4) “Meu MEI tem pendências. O guia ajuda?” → orienta consultas e próximos passos; a solução depende do caso.
+5) “Posso ler no celular e imprimir?” → PDF em A4, compatível com leitura em tela e impressão.
+6) “O registro de receitas calcula automaticamente?” → não; modelo para preenchimento manual.
+7) “O material substitui atendimento contábil?” → é educativo e ajuda em tarefas da rotina; situações individuais podem exigir profissional.
+8) “Como recebo e por quanto tempo tenho acesso?” → responder somente com os canais e condições efetivamente configurados. Não prometer futuras edições, atualizações vitalícias ou envio por WhatsApp sem definição.
+
+SEÇÃO 13 — CHAMADA FINAL
+Faixa grande azul-marinho, texto centralizado.
+Título original: “Comece a organizar a rotina do seu MEI”. Destacar “organizar” em amarelo.
+Subtítulo curto: “Tenha um material visual para consultar cada etapa com mais clareza.”
+Preço do completo em amarelo e grande, seguido do CTA “QUERO ESCOLHER MEU PLANO”, apontando para #oferta.
+Linha de informações sobre formato, entrega e garantia, usando as condições configuradas.
+
+SEÇÃO 14 — RODAPÉ
+Fundo #0A2036, texto cinza-azulado claro, alinhamento central, padding aproximado de 28px 20px, fonte entre 12,5px e 14px com contraste legível.
+Incluir:
+- Nome do meu produto e ano.
+- Aviso de direitos reservados sobre o material próprio.
+- “Material educativo independente. Sem vínculo com órgãos públicos.”
+- Orientação curta para consultar os canais oficiais e buscar apoio profissional quando necessário.
+- Identificação do vendedor e links de suporte, privacidade e termos, quando fornecidos.
+Usar dados configuráveis. Não inventar CNPJ, endereço, registro no INPI ou selos oficiais. Não copiar o nome, o aviso textual ou a identidade do vendedor da referência.
+
+4. RESPONSIVIDADE E EXPERIÊNCIA
+
+Priorize a leitura no celular, sem perder a composição centralizada do desktop.
+Nas larguras de até 860px, trocar a lista do hero para uma coluna e reduzir o padding das seções para aproximadamente 52px. Manter capa, cartões e textos dentro da tela.
+Os quatro pilares continuam empilhados em todas as larguras.
+Os bônus podem permanecer em 2×2 enquanto legíveis; abaixo de aproximadamente 380px, usar uma coluna se necessário.
+A grade das amostras e a capa sobreposta devem manter proporções e permitir ampliar a imagem.
+Não usar overflow-x:hidden como substituto para corrigir elementos maiores que a tela.
+Não manter textos longos com white-space:nowrap no celular.
+Validar em 360px, 390px, 768px, 1024px e 1440px.
+Botões e controles com área de toque de pelo menos 44px e foco visível.
+Sem pop-ups de venda interrompendo a leitura e sem notificações de compra falsas.
+A referência observada não apresenta uma barra de compra fixa ativa; não adicionar uma por padrão.
+Use rolagem suave nas âncoras, com alternativa sem animação para prefers-reduced-motion.
+
+5. PRECISÃO DA COMUNICAÇÃO
+
+Descrever o conteúdo real do guia. Não afirmar que duas datas garantem toda a regularidade do negócio. Não prometer benefício previdenciário automático, emissão de qualquer nota em poucos toques ou resolução garantida de toda dívida.
+Ao abordar Pix, falar em receitas da atividade recebidas por diferentes meios, inclusive em conta pessoal, distinguindo outras entradas sem relação com vendas. Não apresentar isso como nova tributação do Pix.
+Diferenciar notas de serviços e de mercadorias e reconhecer procedimentos que dependem da atividade e da localidade.
+Não prometer que o comprador nunca precisará de contador. A proposta é ensinar a consultar, entender e organizar a rotina.
+Evitar inserir no site valores específicos de DAS, limites ou prazos sem confirmação oficial e data de revisão. Caso não haja verificação, explicar o assunto sem cravar o número.
+
+6. IMPLEMENTAÇÃO E CRITÉRIOS DE ENTREGA
+
+Implemente no ambiente web disponível do Google AI Studio, preferindo componentes React com TypeScript se essa for a estrutura inicial do projeto. Use CSS organizado ou Tailwind com tokens consistentes.
+Crie componentes separados para hero, amostras, pilares, público, simulador, seletor, bônus, planos, avaliações, garantia, FAQ e rodapé.
+Não adicionar backend, autenticação ou painel de administração sem necessidade.
+Imagens devem ter width/height ou aspect-ratio para evitar saltos de layout, texto alternativo descritivo e lazy loading abaixo da primeira tela. Priorizar o carregamento da capa do hero.
+Se eu não tiver anexado uma imagem, reservar seu espaço e usar um placeholder limpo e identificável na prévia. Não buscar a imagem equivalente no site concorrente. Centralizar os caminhos das imagens para eu substituí-las facilmente.
+Não renderizar listas de configuração, instruções técnicas ou nomes de arquivos como conteúdo da página pública.
+Os CTAs de navegação devem ir para a oferta; apenas os botões de compra devem abrir os checkouts configurados.
+Implementar e testar slider, cálculo monetário, seletor de situações, abertura das amostras, fechamento da lightbox, FAQ e navegação por teclado.
+Manter os preços consistentes no hero, simulador, planos e chamada final.
+Verificar que nenhum link leva ao checkout, WhatsApp ou e-mail do site de referência.
+Ao terminar, mostre a página funcional e uma lista curta dos dados que ainda precisam ser configurados antes da publicação: preços definitivos, checkout, canais e condições de entrega, suporte, políticas, identificação do vendedor e imagens que faltarem.
+
+O resultado deve preservar a sequência completa de 14 blocos, o hero central com capa e páginas laterais, a alternância de fundos, os cards empilhados, o simulador azul, o seletor interativo, os bônus em grade, o plano completo acima do básico e o fechamento com garantia, FAQ e rodapé. A página deve parecer um projeto editorial de venda organizado e consistente com o meu Guia Visual do MEI.

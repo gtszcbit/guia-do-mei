@@ -1,0 +1,6 @@
+{
+  "name": "Guia Visual do MEI - Edição 2026",
+  "description": "Landing page oficial do Guia Visual do MEI Edição 2026 com tutoriais práticos, seletor de rotina e simulador comparativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
